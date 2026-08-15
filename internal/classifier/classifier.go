@@ -394,7 +394,7 @@ func Tokenize(text string) []string {
 				}
 			}
 		} else {
-			if len(m) > 2 {
+			if len(m) >= 2 {
 				chineseTokens = append(chineseTokens, m)
 			}
 		}
